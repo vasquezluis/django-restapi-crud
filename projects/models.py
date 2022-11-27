@@ -5,4 +5,4 @@ class Project(models.Model):
     title = models.CharField(max_length=200)
     description = models.CharField(max_length=500)
     technology = models.CharField(max_length=200)
-    cratedAt = models.DateTimeField(auto_now_add=True)
+    created_at = models.DateTimeField(auto_now_add=True)
