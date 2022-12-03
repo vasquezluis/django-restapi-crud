@@ -1,4 +1,5 @@
-projects/migrations
+db.sqlite3
+__pycache__
 .vscode
 venv
 restcreation.txt
